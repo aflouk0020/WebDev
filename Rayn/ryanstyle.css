@@ -1,0 +1,71 @@
+/* This is the stylesheet for the Ryan Family Website */
+html{
+	background-color:#000;
+	}
+body{
+	background-color:#BBBBBB;
+    width:750px;
+    margin:auto;
+    text-align:center;   /* centers everything */
+    font-family:"Arial"; /* use quotes */
+    padding:20px;
+	}
+h1,h2 {
+	color:black;
+	padding:10px;
+}
+p {
+	font-family:"Arial";/* your choice-pick whatever font */
+	text-align:left;
+}
+img{
+	border-radius:50%;
+	border:8px solid black;
+}
+a:link {
+	color: red;
+}
+a:visited {
+	color: orange;
+}
+
+
+
+#nav ul {
+	list-style: none;
+}
+
+#nav{
+	color: white;
+	font-size:120%;
+	padding: 5px;
+	margin: 5px;
+}
+
+#nav li {
+		display:inline; /*shows the list on one line befor targetting links*/
+}
+#nav li a {
+	text-decoration: none ; /*removes the underline*/
+	display: inline-block; /*makes them into "blocks"-allows  us set a width and height in the element*/
+}
+#nav li a:link{
+	background: #000; /*sets bg to black*/
+	padding: 10px;/*space inside*/
+	margin: 20px; /*force field outside*/
+	color: yellow; /*font color*/
+	border-radius: 7px; /*round off the edges*/
+	font-size:120%;/*make text 20% larger*/
+}
+#nav a:visited{
+	color:yellow;
+}
+#nav a:hover{
+	color:  white;
+	background: #555;
+	opacity: 1.0; /*removes any transparency*/
+}
+#nav a :active{
+	color: red; /*click and hold on button to make it red*/
+}
+
