@@ -1,0 +1,183 @@
+
+body{
+  text-align: center;
+}
+  
+h1 {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 50px;
+    color: #5D4954;
+}
+
+h4{
+  font-family:  'Kiwi Maru', serif;
+  font-size: 20px;
+  color: #5D4954;
+}
+
+table {
+  border-collapse:separate;
+  width: 80%;
+  border: 10px solid #5D4954;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family:  'Kiwi Maru', serif;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color:#5D4954; color: white;
+}
+
+th {
+background-color:rgb(226,226,226);
+color: black;
+font-family:  'Kiwi Maru', serif;
+}
+
+/* list, paragraph order list  */
+.list ,p , ol{
+  font-family: 'Kiwi Maru', serif;
+  line-height: 2;
+}
+
+/* list style  */
+.list{
+  padding-left: 40px;
+
+}
+.margin_button{
+
+  margin: 20px ;
+
+}
+
+/* Video box */
+.video-box{
+  height:300px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px black;
+  width: 400px;
+  margin: 20px;
+
+
+
+}
+
+/* pik in system.html */
+.sys_pik{
+  width: 400px;
+  height: 300px;
+  border-radius: 100px 100px 100px 100px;
+  padding: 15px;
+  box-shadow: 15px 15px 15px black;
+  margin-bottom: 20px;
+  
+}
+
+
+.images-box-sys{
+  width: 400px;
+  height: 300px;
+  float: right;
+}
+
+.mypik{
+  border-radius: 20px 20px 20px 20px;
+  float: right;
+  width: 400px;
+  padding: 5px;
+  height: 300px;
+  
+}
+.blk_img{
+  display:list-item;
+  padding: 20px;
+  border: 10px solid #5D4954;
+  box-shadow: 15px 15px 15px black;
+  margin-bottom: 25px;
+  border-radius: 20px;
+
+}
+.slide{
+  border: 0;
+  width:700px;
+   height:500px;
+   border-radius: 20px;
+}
+.pix_in_box{
+      width: 300px;
+      height: 200px;
+}
+
+/* for the image in sys file */
+.right{
+  float: right;
+}
+
+
+.button > a:visited, .button > a:link{
+  width: 100px;
+  height: 50px;
+  border: 4px black;
+  background-color: #5D4954;
+  padding: 10px;
+  color: rgb(226,226,226);
+  text-decoration: none;
+  margin: 15px 15px 15px;
+  border-radius: 10px;
+
+}
+
+.button_404{
+  
+  background-color: #5D4954;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+.img_404{
+    height: 400px;
+    width: 100%;
+    
+}
+
+
+.sec-page-image{
+  width: 600px;
+  height: 350px;
+}
+.footer{ /* class for footer*/
+  color: rgb(226,226,226);
+  text-align: center;
+  
+}
+
+/* paragraph for left side in index page */
+
+/* for the paragraphs */
+.left{
+  text-align: left;
+
+}
+
+
+.center{
+  text-align: center;
+}
+
+
+.contact_form{
+  width:640px;
+  height:1660px;
+  border:0;
+}
