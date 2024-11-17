@@ -1,0 +1,110 @@
+/*this is eco Ireland stylesheet */
+/*generic selectors*/
+html{
+	background:#002;
+}
+body{
+	text-align:center;
+	margin:0px auto;
+	font-family:"comic sans ms";
+	width:800px;
+	padding:0px 15px 0px 15px;
+	background-color:#FFF;
+}
+/*heading*/
+h1{
+  font-family:Arial;
+}
+/*list*/
+p li{
+	text-align:left;
+}
+a{
+	color:red;
+}
+table td{
+	border:1px solid red;
+	
+}
+/*this is a class for img in recycle page*/
+.bbb{box-shadow:15px 15px 10px black ;
+	
+
+	
+}
+/*this is a class for anothor img in recycle page*/
+.asd{
+	box-shadow:15px 15px 10px black;
+	
+}
+/*this is a class  for img in re-use*/
+.xxx{
+	box-shadow:15px 15px 10px grey;
+}
+.button{
+	transition:all 0.5s;
+	cursor: pointer;
+	box-shadow:5px 5px grey;
+}
+.shadow{
+	box-shadow: 15px 15px 10px black;
+}
+/*ids*/
+#mypix{
+	float:right; /*position on the right*/
+}
+
+#footer {
+	background:purple;
+	min-height:80px;
+	padding-top:20px;
+	color:white;
+	text-align:center;
+	
+}
+#nav ul li{
+	display:inline;
+}
+/*pseudo classes*/
+#nav ul a:link {
+	text-decoration:none; /*remove underline*/
+	font-size: 1.2em; /*increase size*/
+	color:white;
+	font-weight: bold;
+	padding:15px 5px 15px; /*top, right,bottom,left*/
+	margin:10px;
+	background-color:green;
+	border-radius:8px;
+}
+
+/*visited link*/
+#nav a:visited{
+	color:white;
+}
+/*mouse over link*/
+#nav a:hover{
+	color:green;
+	background-color: white;
+}
+/*selected link*/
+#nav a:active{
+	color: yellow;
+	background-color:blue;
+}
+/*classes*/
+.righty{text-align:right;}
+
+#reuse{
+	border:2px solid black;
+	width:750px;
+	min-height:650px;
+	
+}
+
+.reuse1 td{
+	border:1px solid blue;
+	padding:15px;
+	width:750px;
+	min-height:650px;
+	
+}
